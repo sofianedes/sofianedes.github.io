@@ -1,0 +1,13 @@
+:root { --bg: #0b0a09; --fg: #ece6da; --muted: #a39a8a; --gold: #d4b25a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 24px; text-align: center; }
+.logo { width: 140px; height: 140px; border-radius: 50%; }
+h1 { font-weight: normal; letter-spacing: .04em; margin: 16px 0 4px; }
+h2 { font-weight: normal; color: var(--gold); margin-top: 32px; }
+.sub { color: var(--gold); margin-top: 0; }
+.small, footer { color: var(--muted); font-size: 15px; }
+a { color: var(--gold); }
+.links { list-style: none; padding: 0; display: flex; gap: 24px; justify-content: center; }
+.doc { text-align: left; }
+footer { text-align: center; padding: 24px 16px 40px; }
